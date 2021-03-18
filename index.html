@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insert website here</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- tab navigation section /////////////// -->
+        <ul id="tabs">
+            <li><a id="tab1">HOME</a></li>
+            <li><a id="tab2">ABOUT</a></li>
+            <li><a id="tab3">INSERT THING</a></li>
+            <li><a id="tab4">CONTACT</a></li>
+        </ul>
+
+         <!--  START of HOME PAGE 1st container  ////////////////////// -->
+            <div class="container" id="tab1Page">
+                 <h1>home page</h1>
+                 <p>this is the home page for this website</p>
+                 <p>Its a really nice site for the family <span>(not really)</span></p>
+            </div>
+        <!-- END of 1st container //////// -->
+
+        <!--  START of ABOUT PAGE 2nd container ////////////////////// -->
+            <div class="container" id="tab2Page">
+                <h1> about page</h1>
+                <p>This site is about nothing, where you get nothing.</p>
+            </div>
+        <!-- END of 2nd container //////// -->
+
+        <!--  START of INSERT THING PAGE 3rd container ////////////////////// -->
+            <div class="container" id="tab3Page">
+                <h1>Insert filler here</h1>
+                <img src="up.JPG">
+                <p>OH YEAAAAAAAAA</p>
+            </div>
+        <!-- END of 3rd container //////// -->
+
+        <!--  START of CONTACT PAGE 4th container ////////////////////// -->
+            <div class="container" id="tab4Page">
+                <h1>contact me .... or not</h1>
+
+                <!-- START of contact form ////////// -->
+                <form>
+                    <div class="formSection">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="fullname" name="name">
+                    </div>
+
+                    <div class="formSection">
+                        <label for="email">email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    
+                    <div id="formErrors"></div>
+
+                    <div>
+                     <button><input type="submit" id="submit" value="send me all your info"></button>
+                    </div>
+                </form>
+            </div>
+        <!-- END of 4th container //////// -->
+
+        <footer>
+            <ul>
+                <li>&copy; 2020 - forever</li>
+                <li>Some Rights Reserved</li>
+                <li><a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a></li>
+                <li><a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></li>
+                    </ul>
+                    
+                </footer>
+        </footer>
+
+    </div>
+
+</body>
+</html>
